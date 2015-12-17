@@ -9,5 +9,6 @@ case class JobDescription
   name: String,
   url: String,
   command: String,
-  priority: Integer
+  priority: Integer,
+  parameters: Set[JobParameter]
   )
