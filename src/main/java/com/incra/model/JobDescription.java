@@ -1,6 +1,8 @@
-package com.incra.model
+package com.incra.model;
 
 import java.util.Set;
+
+import org.projectlombok.data.*;
 
 /**
  * Created by jeff on 12/4/15.
