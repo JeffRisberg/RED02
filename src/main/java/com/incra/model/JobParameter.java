@@ -1,15 +1,12 @@
-package com.incra.model
+package com.incra.model;
 
 /**
  * @author Jeff Risberg
  * @since 12/16/15
  */
 @Data
-class JobParameter {
-    (
-}nameC: String, valueC: Any) {
-  val name = nameC
-  val value = valueC
+public class JobParameter {
+    String name;
+    Object value;
 
-  override def toString(): String = "(" + name + "=" + value + ")"
 }

@@ -17,6 +17,7 @@ version = '0.1.0'
 
 ext {
     slf4jVersion = '1.7.25'
+    projectLombokVersion = '1.16.20'
     junitVersion = '4.12'
 }
 
@@ -24,7 +25,7 @@ dependencies {
     compile "org.slf4j:slf4j-api:$slf4jVersion"
     runtime "org.slf4j:slf4j-simple:$slf4jVersion"
 
-    compile "project.lombok:1.16.20"
+    compile "org.projectlombok:lombok:$projectLombokVersion"
 
     compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
 
